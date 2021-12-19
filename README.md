@@ -1,2 +1,2 @@
 # AndroidCoreConcepts
-Thread,Handler Thread,Loopers,Handler
+#Thread,Handler Thread,Loopers,Handler

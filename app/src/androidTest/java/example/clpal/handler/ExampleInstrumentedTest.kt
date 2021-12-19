@@ -1,4 +1,4 @@
-package example.clpal.runnablehandlerandcountdowntimer
+package example.clpal.handler
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

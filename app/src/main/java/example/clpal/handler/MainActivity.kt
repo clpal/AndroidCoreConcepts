@@ -1,4 +1,4 @@
-package example.clpal.runnablehandlerandcountdowntimer
+package example.clpal.handler
 
 import android.os.Bundle
 import android.os.CountDownTimer
@@ -6,6 +6,7 @@ import android.os.Handler
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import example.clpal.handler.R
 
 class MainActivity : AppCompatActivity() {
     var number = 0
@@ -28,6 +29,7 @@ class MainActivity : AppCompatActivity() {
         // Task scheduler using  Handler and Runnable
          val handler=Handler()
          val runnable= object :Runnable{
+             @Override
               override fun run() {
                   number++
                   Toast.makeText(this@MainActivity,"number$number",Toast.LENGTH_LONG).show()

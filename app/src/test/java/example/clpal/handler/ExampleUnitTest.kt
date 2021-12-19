@@ -1,4 +1,4 @@
-package example.clpal.runnablehandlerandcountdowntimer
+package example.clpal.handler
 
 import org.junit.Test
 
