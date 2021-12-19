@@ -1,0 +1,2 @@
+rootProject.name = "AsynkTaskWeakReference"
+include ':app'
