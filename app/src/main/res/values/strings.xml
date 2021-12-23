@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">User Activity</string>
+    <string name="show_data">show Data</string>
+    <string name="displayActvity">Display Activity</string>
+    <string name="show_dataa">Passing data between Activities in Kotlin using Serializable interface </string>
+</resources>
